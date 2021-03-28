@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/round_shape">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/tvWhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="17:00"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>
