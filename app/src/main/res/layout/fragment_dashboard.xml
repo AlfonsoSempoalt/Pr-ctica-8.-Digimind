@@ -138,6 +138,13 @@
           android:layout_gravity="center_horizontal"
           android:timePickerMode="spinner" />
 
-
+      <Button
+          android:id="@+id/btnSave"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Save"
+          android:textAllCaps="false"
+          android:textSize="17sp"
+          android:layout_gravity="center_horizontal"/>
   </LinearLayout>
 </ScrollView>
